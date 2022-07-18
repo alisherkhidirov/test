@@ -22,6 +22,13 @@ public class Coding4 {
         System.out.println(Arrays.toString(plusStr(new String[] {"a","b","c"}, new String[] {"d","e","f"})));
         System.out.println(countIntChars("apple"));
 
+        int i = 10; //20
+        int j = 20; //10
+        int swap = i;
+        i = j;
+        j = swap;
+        System.out.println(i + " " + j);
+
 
     }
     public static int[] sortArray(int[] num) {
